@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Predstavitev ekipe</title>
+  <desc id="desc">Topla ilustracija dveh wellness strokovnjakinj v salonu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8efe3"/>
+      <stop offset="100%" stop-color="#d9b792"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efcfb1"/>
+      <stop offset="100%" stop-color="#e4bc96"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <ellipse cx="250" cy="170" rx="230" ry="110" fill="#fff6ec" opacity="0.56"/>
+  <ellipse cx="970" cy="630" rx="230" ry="120" fill="#ecd2b8" opacity="0.56"/>
+
+  <rect x="160" y="500" width="880" height="170" rx="34" fill="#7b5032"/>
+
+  <!-- Left person -->
+  <circle cx="470" cy="300" r="78" fill="url(#skin)"/>
+  <path d="M392 290c18-58 52-93 102-106c46 14 79 48 95 100c-17-14-31-21-48-24c-8 20-20 34-39 42c-22 9-43 8-64-2c-14-7-28-10-46-10Z" fill="#5b3d2a"/>
+  <rect x="374" y="392" width="192" height="214" rx="72" fill="#efe1d2"/>
+  <rect x="420" y="440" width="100" height="136" rx="42" fill="#e8d6c4"/>
+
+  <!-- Right person -->
+  <circle cx="742" cy="290" r="74" fill="url(#skin)"/>
+  <path d="M674 284c16-50 50-84 96-96c42 12 72 41 89 84c-15-11-29-17-46-20c-7 18-20 31-38 38c-19 8-39 8-58 0c-13-5-26-8-43-6Z" fill="#6a4730"/>
+  <rect x="654" y="380" width="176" height="214" rx="68" fill="#f1e5d8"/>
+  <rect x="694" y="428" width="96" height="136" rx="38" fill="#ebdbcc"/>
+
+  <!-- Towels / spa accents -->
+  <rect x="338" y="546" width="100" height="58" rx="14" fill="#d6b291"/>
+  <rect x="772" y="536" width="98" height="58" rx="14" fill="#d6b291"/>
+  <path d="M278 420c38-27 81-36 127-28c-15 44-48 75-99 90c-27-12-36-31-28-62Z" fill="#84a66f"/>
+</svg>
