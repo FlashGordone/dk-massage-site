@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Maderoterapija z lesenim valjčkom</title>
+  <desc id="desc">Prikaz maderoterapije: leseni valjček na nogi v wellness ambientu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6efe8"/>
+      <stop offset="1" stop-color="#e9ddd1"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9b38f"/>
+      <stop offset="0.5" stop-color="#d99672"/>
+      <stop offset="1" stop-color="#e6ad87"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8955f"/>
+      <stop offset="1" stop-color="#9a673e"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+
+  <ellipse cx="1050" cy="200" rx="210" ry="60" fill="#ffffff" opacity="0.25" filter="url(#soft)"/>
+  <ellipse cx="280" cy="180" rx="160" ry="50" fill="#ffffff" opacity="0.18" filter="url(#soft)"/>
+
+  <g transform="rotate(-12 760 520)">
+    <rect x="240" y="360" width="980" height="270" rx="130" fill="url(#skin)"/>
+    <ellipse cx="340" cy="500" rx="130" ry="80" fill="#e1a67f" opacity="0.65"/>
+    <ellipse cx="1120" cy="490" rx="120" ry="78" fill="#e1a67f" opacity="0.55"/>
+  </g>
+
+  <g transform="translate(780 420) rotate(-14)">
+    <rect x="-30" y="10" width="420" height="120" rx="60" fill="#8e5d38"/>
+
+    <g transform="translate(20 22)">
+      <rect x="-60" y="22" width="68" height="36" rx="16" fill="#b47d4f"/>
+      <rect x="352" y="22" width="68" height="36" rx="16" fill="#b47d4f"/>
+
+      <g fill="url(#wood)">
+        <ellipse cx="24" cy="40" rx="16" ry="20"/>
+        <ellipse cx="54" cy="40" rx="16" ry="20"/>
+        <ellipse cx="84" cy="40" rx="16" ry="20"/>
+        <ellipse cx="114" cy="40" rx="16" ry="20"/>
+        <ellipse cx="144" cy="40" rx="16" ry="20"/>
+        <ellipse cx="174" cy="40" rx="16" ry="20"/>
+        <ellipse cx="204" cy="40" rx="16" ry="20"/>
+        <ellipse cx="234" cy="40" rx="16" ry="20"/>
+        <ellipse cx="264" cy="40" rx="16" ry="20"/>
+        <ellipse cx="294" cy="40" rx="16" ry="20"/>
+        <ellipse cx="324" cy="40" rx="16" ry="20"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(620 330) rotate(-6)">
+    <ellipse cx="0" cy="0" rx="110" ry="55" fill="#e0aa86"/>
+    <ellipse cx="120" cy="0" rx="95" ry="46" fill="#d39b78"/>
+    <ellipse cx="-60" cy="24" rx="70" ry="32" fill="#e8b58f"/>
+  </g>
+
+  <g opacity="0.18">
+    <ellipse cx="760" cy="530" rx="370" ry="120" fill="#ffffff"/>
+    <ellipse cx="860" cy="560" rx="260" ry="90" fill="#ffffff"/>
+  </g>
+</svg>

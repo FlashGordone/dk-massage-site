@@ -60,11 +60,11 @@ p{ line-height: 1.65; }
   animation-delay: 0s;
 }
 .slide.s2{
-  background-image: url("https://images.unsplash.com/photo-1527799820374-dcf8d9d4a6b5?auto=format&fit=crop&w=1600&q=70");
+  background-image: url("https://images.pexels.com/photos/6628476/pexels-photo-6628476.jpeg?auto=compress&cs=tinysrgb&w=1600");
   animation-delay: 12s;
 }
 .slide.s3{
-  background-image: url("https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1600&q=70");
+  background-image: url("https://images.pexels.com/photos/29821658/pexels-photo-29821658.jpeg?auto=compress&cs=tinysrgb&w=1600");
   animation-delay: 24s;
 }
 
@@ -406,6 +406,26 @@ details[open] .sum-right{
   padding: 10px 6px 14px;
 }
 
+.details-body-full{
+  grid-template-columns: 1fr;
+}
+
+.massage-intro-wrap{
+  display: grid;
+  grid-template-columns: 1.25fr 0.95fr;
+  gap: 16px;
+  align-items: start;
+  margin-bottom: 6px;
+}
+
+.massage-intro-media img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
 .details-text p{
   margin: 0 0 10px;
 }
@@ -414,6 +434,61 @@ details[open] .sum-right{
   margin: 12px 0 6px;
   font-size: 1rem;
   color: #6f4a2d;
+}
+
+.massage-menu{
+  display: grid;
+  gap: 12px;
+  margin: 10px 0 12px;
+}
+
+.massage-item{
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 12px;
+  align-items: start;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.massage-thumb{
+  width: 92px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.massage-item h5{
+  margin: 0 0 6px;
+  font-size: 0.98rem;
+  color: #6f4a2d;
+}
+
+.massage-item p{
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+.massage-pricing{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.massage-pricing span{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #6f4a2d;
+  background: rgba(216,191,166,0.35);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 999px;
+  padding: 4px 10px;
 }
 
 .pros-list,
@@ -485,6 +560,10 @@ details[open] .sum-right{
   .details-body{ grid-template-columns: 1fr; }
   .details-media img{ height: 200px; }
   .booking-layout{ grid-template-columns: 1fr; }
+  .massage-item{ grid-template-columns: 80px 1fr; }
+  .massage-thumb{ width: 80px; height: 68px; }
+  .massage-intro-wrap{ grid-template-columns: 1fr; }
+  .massage-intro-media img{ height: 200px; }
 }
 
 
